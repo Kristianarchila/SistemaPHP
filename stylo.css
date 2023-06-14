@@ -1,0 +1,14 @@
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+
+

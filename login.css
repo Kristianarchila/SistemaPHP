@@ -1,0 +1,71 @@
+body {
+	background-color: #c1bdba;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: center; /* centrar todo el contenido */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* utilizar el 100% del viewport height para centrar verticalmente */
+}
+
+.box {
+    width: 400px; /* establecer un ancho fijo para el formulario */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+	color: #553939; /* utilizar un color que contraste con el fondo del formulario */
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+
+form {
+	margin-top: 20px; /* agregar un margen superior al formulario */
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+	color: #212529; /* utilizar un color que contraste con el fondo del formulario */
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 5px rgba(80, 67, 67, 0.1);
+}
+
+input[type="submit"] {
+	background-color: #553939;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #753b3b;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+}
